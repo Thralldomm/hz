@@ -3,101 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <title>Чебурашка</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body> 
-    <table cellspacing="15">
-        <tr>
 
-            <td><img src="https://stellar-uploads.s3.amazonaws.com/uploads/2018/09/Screen-Shot-2018-09-19-at-11.20.07.png" width="300" alt="Типо пустота">
-  </td>
-            <td><h1>Семенова Амина</h1>
+<div class="container">
+
+    <div class="info">
+   <img src="https://stellar-uploads.s3.amazonaws.com/uploads/2018/09/Screen-Shot-2018-09-19-at-11.20.07.png"  alt="Типо пустота"  
+                class="avatar"/>
+
+        <div class="info-text">
+    <h1>Семенова Амина</h1>        
     
-   <p><em>Я студентка великого <strong>коледжа связи</strong></em></p>
+   <p>Я студентка великого <strong>коледжа связи</strong></p>
    <p><em> Люблю учить языки и спать</em></p>
-</td>
-            
-        </tr>
-    </table>
-    
-   <hr>
 
-   <h2>Мои соц сети</h2>
-   <ul type="square">
-    <li><a href="https://vk.com/thralldom" target="_blank">ВК</a></li>
-    <li>хз</li>
-    <li>хз</li>
-</ul>
+   <h4>Мои соц сети</h4>
+   
+    <a href="https://vk.com/thralldom" target="_blank">ВК</a> |
+    хз |
+    хз
 
+</div>
 
+    </div>
 
-
-<hr>
+    <div class="card bg-yellow" >
 
    <h2>Мои хобби</h2>
-   <ol>
+   <ol class="list">
     <li> Языки</li>
     <li> Растениеводство</li> 
     <li> Квиддич</li>
 
 </ol>
+</div>
 
-<hr>
+
+<div class="card bg-green">
 
 <h2>Опыт работы</h2>
-<table cellspacing="20">
+<table cellspacing="20" class="table">
     
+    
+    <tr>
         <th>Компания</th>
         <th>Должность</th>
         <th>Год</th>
-    
-        <tr>
-        <td>Отель</td>
-        <td>Приведение</td>
-        <td>Насколько помню, 1467-1780</td>
-        </tr>
-        <tr>
-        <td>Австралия, остров Мако</td>
-        <td>Русал</td>
-        <td>2000-2005</td>
+    </tr>
+
+    <tr>   
+        <td class="temp">Отель</td>
+        <td class="temp">Приведение</td>
+        <td class="temp">1467-1780</td>
+     </tr> 
+     
+     
+      <tr > 
+        <td class="temp">Австралия, остров Мако</td>
+        <td class="temp">Русал</td>
+        <td class="temp">2000-2005</td>
     </tr>
 
     
     
 </table>
+</div>
 
-<hr> 
+
+<div class="card bg-red">
 
 <h2>ХЗ</h2>
-<a href="2.html">ХЗ че писать</a>
+<img src="4185.jpg" width=" 300" alt="тут моя фотка">
+    <ol class="link-list">
+       <li>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><h2><em>Apalling, but here nevertheless</em></h2>
+       </a> </li>
+       <!--<li><a href="https://www.youtube.com/watch?v=p47fEXGabaY&list=RDdQw4w9WgXcQ&index=23" target="_blank"> <h2><em>If youre here, then whos guading Hades?</em></h2></a></li>
+       -->
+    </ol>
+</div>
 
 
 
-<hr> 
+<div class="contact">
 
 
 <h2>Связаться со мной</h2>
 <form action="/">
+
+    <div class="row">
+
+<div class="form-group">   
     <label for="name">Ваше имя-с:</label>
     <input type="text" id="name" placeholder="Введите ваше имя">
+</div>
 
-<br> <br>
-
-    <label for="email">Ваше Email-с:</label>
+<div class="form-group">
+    <label for="email">Ваше email-с:</label>
     <input type="text" id="email" placeholder="Введите ваше email">
+</div>
+
+</div>
 
 
-    <br>
-    <br>
-
+<div class="form-group">
     <label for="text">Ваше сообщение-с:</label><br>
-    <textarea id="text" rows="6" cols="20"> </textarea> 
+    <textarea id="text" rows="3" cols="15"> </textarea> 
+</div>
+   
 
-    <br>
-    <br>
 
-
-    <input type="submit" value="Отправить">
+    <input class="btn" type="submit" value="Отправить">
 </form>
 
+</div>
+
+</div>
+
+
+    <div class="box"></div>
+
+
+
+<div style="margin-bottom: 100px"></div> 
 </body>
 </html>
